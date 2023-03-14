@@ -94,3 +94,33 @@ Một số quy tắc:
 - Cấu hình `tsconfig.json` được extend từ [FrontConf/tsconfig.json](https://github.com/80andCo/FrontConf/blob/main/tsconfig.json 'FrontConf')
 - Cấu hình ESLint được extend từ [FrontConf/src/config/config.json](https://github.com/80andCo/FrontConf/blob/main/src/config/config.json 'FrontConf')
 - Sử dụng mảng thì nên khai báo dưới dạng `string[]`, `number[]`. Khai báo dạng `Array<string>` thì không được khuyến khích, chỉ sử dụng khi cần thiết.
+
+## Nguyên tắc commit code (message)
+
+### Nội dung message:
+
+Required (bắt buộc):
+
+- fix: `<chỉnh sữa lỗi,...>`
+- add: `<bổ sung chức năng, thêm file mới>`
+- update: `<cập nhật code, tính năng (không phải lỗi)>`
+- remove: `<xóa bỏ file, function,...>`
+
+Optional (tùy chọn):
+
+- hotfix: `<sửa các lỗi quan trọng>`
+- change: `<thay đổi đặc tả>`
+- clean: `<sắp xếp (tái cấu trúc)>`
+- disable: `<vô hiệu hóa (bình luận,..)>`
+- upgrade: `<nâng cấp version, package>`
+- revert: `<khôi phục lại code, chức năng trước đó>`
+- style: `<cập nhật style, css>`
+
+Có thể đưa `#{số issue}` vào trong message để tiện theo dõi issue của mình trên github. Link tham khảo [Issue-driven development](https://gist.github.com/Enchan1207/0ea2c7a7d6a3c16aea5683435d1972f8)
+
+Tham khảo khác:
+
+- [100 câu ví dụ về commit message trong git](https://gist.github.com/Enchan1207/0ea2c7a7d6a3c16aea5683435d1972f8)
+- Blog [【今日からできる】コミットメッセージに 「プレフィックス」 をつけるだけで、開発効率が上がった話](https://qiita.com/numanomanu/items/45dd285b286a1f7280ed)
+- Blog [Cách viết commit message hiệu quả](https://qiita.com/itosho/items/9565c6ad2ffc24c09364)
+- Blog [いいコミットメッセージの共通点と書き方〜便利なテンプレートやチーム開発時のお作法まで詳しく解説〜](https://www.praha-inc.com/lab/posts/commit-message)
