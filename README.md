@@ -70,10 +70,20 @@ login_id: admin
 password: admin123
 ```
 
-## Định dạng code và kiểm tra lỗi
+## Storybook cho web End-user
 
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint 'ESLint'): Kiểm tra lỗi và cú pháp cho code.
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode 'Prettier'): Format code theo cấu hình.
+[Storybook](https://storybook.js.org) là một công cụ giúp phát triển các UI component dưới một môi trường tách biệt hoàn toàn với ứng dụng web chính. Chức năng chủ chốt của Storybook đó là sinh ra một trang tài liệu (documentation) cho toàn bộ các UI Component có trong dự án. Ngoài ra, hỗ trợ nhiều giải pháp cho automation UI testing.
+
+> Run Storybook ở local (port mặc định 6006)
+
+```
+cd front
+npm run storybook or yarn storybook
+```
+
+Giao diện sau khi run thành công http://localhost:6006/
+
+![Storybook](images/storybook.png)
 
 ## CSS
 
@@ -95,9 +105,16 @@ Một số quy tắc:
 - Cấu hình ESLint được extend từ [FrontConf/src/config/config.json](https://github.com/80andCo/FrontConf/blob/main/src/config/config.json 'FrontConf')
 - Sử dụng mảng thì nên khai báo dưới dạng `string[]`, `number[]`. Khai báo dạng `Array<string>` thì không được khuyến khích, chỉ sử dụng khi cần thiết.
 
+## Định dạng code và kiểm tra lỗi
+
+- [ESLint](https://eslint.org): Kiểm tra lỗi và cú pháp trong ECMAScript/JavaScript. Extension cho `VS Code` =>
+  [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint 'ESLint')
+- [Prettier](https://prettier.io): Format code theo cấu hình. Extension cho `VS Code` => [Prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode 'Prettier')
+- [Stylelint](https://stylelint.io): Kiểm tra lỗi trong CSS. Extension cho `VS Code` => [Stylelint extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint 'Stylelint')
+
 ## Nguyên tắc commit code (message)
 
-### Nội dung message:
+### Nội dung message
 
 Required (bắt buộc):
 
