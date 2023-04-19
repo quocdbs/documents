@@ -1,4 +1,4 @@
-<h1 align="center" style="font-size: 35px">:book: ReactJS + React Query Documents :book:</h1>
+<h1 align="center" style="font-size: 35px">:book: ReactJS Documents :book:</h1>
 
 # Một số hook phổ biến
 

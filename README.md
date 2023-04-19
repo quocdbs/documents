@@ -141,3 +141,7 @@ Tham khảo khác:
 - Blog [【今日からできる】コミットメッセージに 「プレフィックス」 をつけるだけで、開発効率が上がった話](https://qiita.com/numanomanu/items/45dd285b286a1f7280ed)
 - Blog [Cách viết commit message hiệu quả](https://qiita.com/itosho/items/9565c6ad2ffc24c09364)
 - Blog [いいコミットメッセージの共通点と書き方〜便利なテンプレートやチーム開発時のお作法まで詳しく解説〜](https://www.praha-inc.com/lab/posts/commit-message)
+
+[//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks So - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
+[john gruber]: http://daringfireball.net
+[markdown-it]: https://github.com/markdown-it/markdown-it

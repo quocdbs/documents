@@ -9,7 +9,9 @@
 **Sức mạnh của React Query**
 
 - Quản lý cache data và cập nhật cực kỳ đơn giản với zero config.
+- Hạn chế gọi nhiều request trùng nhau.
 - Không dùng global state, reducer để quản lý, không học thuật khó hiểu. Quên Redux được rồi đó!
+- Điều khiển được data khi nó bị cũ, có thể gọi lại dễ dàng.
 - Có khả năng tương thích và mở rộng với mọi use-case.
 
 **Trả lời câu hỏi phổ biến:**
